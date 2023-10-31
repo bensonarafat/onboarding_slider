@@ -1,6 +1,6 @@
 # onboarding slider 
 
-<img src="https://github.com/bensonarafat/onboarding_slider/blob/master/screenshots/sample.gif?raw=true" width="250"/>
+<img src="https://github.com/bensonarafat/onboarding_slider/blob/main/screenshots/sample.gif?raw=true" width="250"/>
 
 Check the example [here](https://github.com/bensonarafat/onboarding_slider/issues) for show this package work
 
