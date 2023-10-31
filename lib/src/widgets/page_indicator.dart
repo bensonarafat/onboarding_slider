@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:onboarding_slider/src/models/page_indicator_style_model.dart';
+import 'package:onboarding_slider_flutter/src/models/page_indicator_style_model.dart';
 
 class PageIndicator extends StatelessWidget {
   /// No of dot to be appeared should be equal to

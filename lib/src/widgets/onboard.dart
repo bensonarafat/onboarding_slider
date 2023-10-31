@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:onboarding_slider/src/constants/constants.dart';
-import 'package:onboarding_slider/src/models/onboard_model.dart';
-import 'package:onboarding_slider/src/models/page_indicator_style_model.dart';
-import 'package:onboarding_slider/src/providers/providers.dart';
-import 'package:onboarding_slider/src/widgets/page_indicator.dart';
+import 'package:onboarding_slider_flutter/src/constants/constants.dart';
+import 'package:onboarding_slider_flutter/src/models/onboard_model.dart';
+import 'package:onboarding_slider_flutter/src/models/page_indicator_style_model.dart';
+import 'package:onboarding_slider_flutter/src/providers/providers.dart';
+import 'package:onboarding_slider_flutter/src/widgets/page_indicator.dart';
 
 class OnBoard extends HookConsumerWidget {
   /// Data for OnBoard [List<OnBoardModel>]

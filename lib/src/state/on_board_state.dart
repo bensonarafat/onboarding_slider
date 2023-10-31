@@ -1,5 +1,5 @@
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:onboarding_slider/src/models/onboard_state_model.dart';
+import 'package:onboarding_slider_flutter/src/models/onboard_state_model.dart';
 
 class OnBoardStateNotifier extends StateNotifier<OnBoardState> {
   OnBoardStateNotifier() : super(const OnBoardState());
