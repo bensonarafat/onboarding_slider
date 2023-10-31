@@ -1,39 +1,12 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# onboarding slider 
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages).
+<img src="https://github.com/bensonarafat/onboarding_slider/blob/master/screenshots/sample.gif?raw=true" width="250"/>
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages).
--->
+Check the example [here](https://github.com/bensonarafat/onboarding_slider/issues) for show this package work
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+## Contributing
 
-## Features
-
-TODO: List what your package can do. Maybe include images, gifs, or videos.
-
-## Getting started
-
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
-
-## Usage
-
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
-
-```dart
-const like = 'sample';
-```
-
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+Contributions are welcome.
+In case of any problems look at [existing issues](https://github.com/bensonarafat/onboarding_slider/issues), if you cannot find anything related to your problem then open an issue.
+Create an issue before opening a [pull request](https://github.com/bensonarafat/onboarding_slider/pulls) for non trivial fixes.
+In case of trivial fixes open a [pull request](https://github.com/bensonarafat/onboarding_slider/pulls) directly.
