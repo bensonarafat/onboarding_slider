@@ -194,7 +194,7 @@ class _OnBoard extends HookConsumerWidget {
     return Container(
       decoration: decoration,
       child: SafeArea(
-        child: Column(
+        child: Stack(
           children: [
             showSkip
                 ? Container(
@@ -260,22 +260,30 @@ class _OnBoard extends HookConsumerWidget {
                 },
               ),
             ),
-            SizedBox(
-              height: pageIndicatorHeight,
-              child: PageIndicator(
-                count: onBoardData.length,
-                activePage: onBoardState.page,
-                pageIndicatorStyle: pageIndicatorStyle,
-              ),
-            ),
-            Container(
-              height: footerContentHeight,
-              width: screenSize.width,
-              alignment: Alignment.center,
-              child: ButtonTheme(
-                minWidth: 230,
-                height: 50,
-                child: startButton,
+            Align(
+              alignment: Alignment.bottomCenter,
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.end,
+                children: [
+                  SizedBox(
+                    height: pageIndicatorHeight,
+                    child: PageIndicator(
+                      count: onBoardData.length,
+                      activePage: onBoardState.page,
+                      pageIndicatorStyle: pageIndicatorStyle,
+                    ),
+                  ),
+                  Container(
+                    height: footerContentHeight,
+                    width: screenSize.width,
+                    alignment: Alignment.center,
+                    child: ButtonTheme(
+                      minWidth: 230,
+                      height: 50,
+                      child: startButton,
+                    ),
+                  ),
+                ],
               ),
             ),
           ],

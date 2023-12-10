@@ -71,7 +71,8 @@ class HomeScreen extends StatelessWidget {
             onPressed: () {},
           ),
         ),
-        showSkip: false,
+        showSkip: true,
+
         imageWidth: 320,
         imageHeight: 320,
         decoration: const BoxDecoration(
