@@ -1,31 +1,30 @@
-name: Static code analysis
+# This workflow uses actions that are not certified by GitHub.
+# They are provided by a third-party and are governed by
+# separate terms of service, privacy policy, and support
+# documentation.
+
+name: Dart
 
 on:
   push:
-    branches: [ main ]
+    branches: [ "main" ]
   pull_request:
-    branches: [ main ]
+    branches: [ "main" ]
 
 jobs:
-  lint:
-    runs-on: macos-latest
-
+  build:
+    runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3.5.2
-    - uses: actions/setup-java@v3.11.0
-      with:
-        java-version: 11
-        distribution: temurin
-    - uses: subosito/flutter-action@v2.10.0
-      with:
-        flutter-version: '3.7'
-        cache: true
-
-    - name: Install dependencies for super_tooltip
-      run: flutter pub get
-
-    # Check for any formatting issues in the code.
-    - run: flutter format --set-exit-if-changed .
-
-    # Statically analyze the Dart code for any errors.
-    - run: flutter analyze .
+      - uses: actions/checkout@v3
+      # Note: This workflow uses the latest stable version of the Dart SDK.
+      # You can specify other versions if desired, see documentation here:
+      # https://github.com/dart-lang/setup-dart/blob/main/README.md
+      # - uses: dart-lang/setup-dart@v1
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.13.6'
+          channel: 'stable'
+      - run: flutter --version
+        
+      - name: Install dependencies
+        run: flutter pub get

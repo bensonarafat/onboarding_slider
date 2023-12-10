@@ -1,3 +1,5 @@
+## [0.0.5] - 10.12.2023
+* fix: Render overflow IOS
 ## [0.0.4] - 31.10.2023
 * change app name.
 * 
